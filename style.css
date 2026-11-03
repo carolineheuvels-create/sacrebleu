@@ -50,3 +50,4 @@ footer{display:flex;align-items:center;justify-content:center;gap:10px;padding:3
   .gallery{grid-template-columns:1fr 1fr}
   .gallery img{height:190px}
 }
+.brand img,footer img{border-radius:50%;background:#fff;object-fit:contain;padding:2px}
