@@ -1,4 +1,4 @@
-:root{--bg:#f6f8fb;--card:#fff;--ink:#2a3342;--accent:#7c5cbf;--accent2:#c08a2e;--band:#efe9f8;--r:20px}
+:root{--bg:#e9f8f7;--card:#fff;--ink:#2a3342;--accent:#7c5cbf;--accent2:#c08a2e;--band:#efe9f8;--r:20px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Nunito,system-ui,sans-serif}
@@ -8,7 +8,7 @@ h2{font-size:clamp(1.7rem,4vw,2.3rem);margin:0 0 .6em;text-align:center}
 h3{margin:.2em 0 .4em}
 a{color:var(--accent)}
 img{max-width:100%;display:block}
-.top{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:10px 5vw;background:rgba(246,248,251,.95);backdrop-filter:blur(6px);border-bottom:4px solid transparent;border-image:linear-gradient(90deg,#b394e8,#e0b25c) 1}
+.top{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:10px 5vw;background:rgba(233,248,247,.95);backdrop-filter:blur(6px);border-bottom:4px solid transparent;border-image:linear-gradient(90deg,#b394e8,#e0b25c) 1}
 .brand{display:flex;align-items:center;gap:10px;font-size:1.5rem;font-weight:600;color:var(--ink);text-decoration:none}
 nav{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
 nav a{text-decoration:none;color:var(--ink);font-weight:600}
